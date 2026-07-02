@@ -1,7 +1,7 @@
 const CONFIG = {
   senderName: "Baby Shivu😘😘",
   recipientName: "Mera Baccha 🥹😙",
-  correctBirthday: "2000-10-02",
+  correctBirthday: "2026-05-16",
   enableMusic: true
 };
 
