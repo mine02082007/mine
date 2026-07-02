@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#f8d9e4" />
+  <title>Khol mere dil ko or le le talasi 😚</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+  <div class="background-glow glow-three"></div>
+  <div class="paper-grain"></div>
+
+  
+
+  <main class="story-shell">
+    <div class="story-progress" id="storyProgress" aria-label="Story progress"></div>
+
+    <!-- PAGE 1: BIRTHDAY HEART LOCK -->
+    <section class="story-page active" data-page="0">
+      <div class="glass-card lock-card">
+        <p class="eyebrow">Mere dil tak jane ka raasta </p>
+        <h1>Khajana khola jaye</h1>
+        <p class="intro-text">
+          Meri jindgi ki sabse khaas date batao, or mere dil ka raasta khol do 🥹
+        </p>
+
+        <form class="heart-form" id="birthdayForm" autocomplete="off">
+          <div class="heart-input-wrap" id="heartInputWrap">
+            <svg class="heart-shape" viewBox="0 0 300 270" aria-hidden="true">
+              <defs>
+                <linearGradient id="heartGradient" x1="0" x2="1" y1="0" y2="1">
+                  <stop offset="0%" stop-color="#f9cbd9"/>
+                  <stop offset="52%" stop-color="#ef9fba"/>
+                  <stop offset="100%" stop-color="#d9668d"/>
+                </linearGradient>
+              </defs>
+              <path d="M150 252C128 229 43 174 22 111C4 57 43 18 89 18C120 18 142 36 150 58C158 36 180 18 211 18C257 18 296 57 278 111C257 174 172 229 150 252Z" fill="url(#heartGradient)"/>
+            </svg>
+
+            <div class="date-fields">
+              <label>
+                <span>DD</span>
+                <input id="dayInput" inputmode="numeric" maxlength="2" placeholder="DD" aria-label="Birth day" required />
+              </label>
+              <b>/</b>
+              <label>
+                <span>MM</span>
+                <input id="monthInput" inputmode="numeric" maxlength="2" placeholder="MM" aria-label="Birth month" required />
+              </label>
+              <b>/</b>
+              <label class="year-field">
+                <span>YYYY</span>
+                <input id="yearInput" inputmode="numeric" maxlength="4" placeholder="YYYY" aria-label="Birth year" required />
+              </label>
+            </div>
+
+            <button class="unlock-button" type="submit">
+              Unlock <span>😘</span>
+            </button>
+          </div>
+        </form>
+
+        <p class="status-message" id="birthdayStatus" aria-live="polite">
+          Hint: Tumahara pyaara hu 🥺🥹 ✨
+        </p>
+
+        <div class="corner-doodle doodle-one">♡</div>
+        <div class="corner-doodle doodle-two">✦</div>
+        <div class="corner-doodle doodle-three">❀</div>
+      </div>
+    </section>
+
+    <!-- HEART OPENING OVERLAY -->
+    <div class="heart-opening-overlay hidden" id="heartOpeningOverlay" aria-hidden="true">
+      <div class="opening-copy">
+        <span>mera baccha mere se bahut pyaar karta hai </span>
+        <strong>mere dil ko khol hi liya</strong>
+      </div>
+
+      <div class="heart-door">
+        <div class="heart-half heart-left">
+          <svg viewBox="0 0 300 270">
+            <path d="M150 252C128 229 43 174 22 111C4 57 43 18 89 18C120 18 142 36 150 58C158 36 180 18 211 18C257 18 296 57 278 111C257 174 172 229 150 252Z" fill="#e980a2"/>
+          </svg>
+        </div>
+        <div class="heart-half heart-right">
+          <svg viewBox="0 0 300 270">
+            <path d="M150 252C128 229 43 174 22 111C4 57 43 18 89 18C120 18 142 36 150 58C158 36 180 18 211 18C257 18 296 57 278 111C257 174 172 229 150 252Z" fill="#e980a2"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 2: LOVE LETTER -->
+    <section class="story-page" data-page="1">
+      <div class="glass-card letter-page">
+        <div class="letter-top">
+          <p class="eyebrow">Ek maafinama 🥺🥺<span data-sender>Baby Shivu😘😘</span></p>
+          <span class="stamp">ki taraf se </span>
+        </div>
+
+        <article class="paper-letter" id="paperLetter">
+          <h2>Meri rasmalai🫣😘 <span data-recipient>Mera Baccha 🥹😙</span>,</h2>
+
+          <p class="typed-line">
+            Me tumse bas itna hi kahna chahta hu ki me nasamjh hu thosa sa nakhrila sa hu thoda sa besa 🫣bhi huu 😉par jaisa bhi hu aapka hi to hu na.
+          </p>
+          <p class="typed-line">
+            To app meri galtiyo ko mmaaf kar do mera pyaar nazar nhi aata hai kya aapko 🥺😭.
+          </p>
+          <p class="typed-line">
+            Aap to mere dil ki raani ho aap se hi meri kahani suru hoti hai aap se hi meri kahani khatam hoti hai aap mere liye sab kuch ho 🥹🥹.
+          </p>
+          <p class="typed-line">
+           Arz kiya hai ,
+           Jakar samundar ke kinare ,
+           apne haathon me pani utha lena,
+           Jitna uchaal sako vo chahat tumhari hai🥺,
+           Jitna utha na pao bo mohabbat hamari hai 🥹.
+          </p>
+
+          <p class="letter-signature typed-line">
+            SORRY 🥹<br />
+            <strong data-sender>Shivu</strong> ♡
+          </p>
+        </article>
+
+        <div class="page-controls">
+          <button class="ghost-button prev-page" type="button">← Back</button>
+          <button class="primary-button next-page" type="button">Or suno 😭 →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 3: CUTE BEAR / DUDU-BUBU STYLE -->
+    <section class="story-page" data-page="2">
+      <div class="glass-card cute-page">
+        <p class="eyebrow">Kuch maafi maagne ka tarika </p>
+        <h2>Kya ham bhi ese !</h2>
+        <p class="section-copy">
+          Me bhi ye sab bitana chahta hu tumhare saath .
+        </p>
+
+        <div class="cute-grid">
+          <article class="cute-card">
+            <div class="bear-animation hug-animation" aria-label="Two cute bears hugging">
+              <div class="bear bear-left">
+                <span class="ear ear-a"></span><span class="ear ear-b"></span>
+                <span class="face"><i></i><i></i><b>⌣</b></span>
+              </div>
+              <div class="bear bear-right pink-bear">
+                <span class="ear ear-a"></span><span class="ear ear-b"></span>
+                <span class="face"><i></i><i></i><b>⌣</b></span>
+              </div>
+              <span class="floating-heart">♥</span>
+            </div>
+            <h3>mera pyaara </h3>
+            <p>Me bahut pyaar karta hu .</p>
+          </article>
+
+          <article class="cute-card">
+            <div class="bear-animation gift-animation" aria-label="Cute bear giving a heart">
+              <div class="solo-bear">
+                <span class="ear ear-a"></span><span class="ear ear-b"></span>
+                <span class="face"><i></i><i></i><b>ᴗ</b></span>
+                <span class="gift-heart">♥</span>
+              </div>
+            </div>
+            <h3>chota sa dil tumhare liye </h3>
+            <p>Sab tumhara hai lelo 🥺🥹</p>
+          </article>
+
+          <article class="cute-card">
+            <div class="bear-animation dance-animation" aria-label="Two cute bears dancing">
+              <div class="dance-bear one">
+                <span class="ear ear-a"></span><span class="ear ear-b"></span>
+                <span class="face"><i></i><i></i><b>▽</b></span>
+              </div>
+              <div class="dance-bear two pink-bear">
+                <span class="ear ear-a"></span><span class="ear ear-b"></span>
+                <span class="face"><i></i><i></i><b>▽</b></span>
+              </div>
+              <span class="music-note note-one">♫</span>
+              <span class="music-note note-two">♪</span>
+            </div>
+            <h3>Hamari Duniya </h3>
+            <p>Jaha sab kuch ek memories ban jata hai 🥺.</p>
+          </article>
+        </div>
+
+        <div class="gif-note">
+          Mene ek chota sa tohpha banaya hai tumahre liye 🥹🥹. <br />
+        </div>
+
+        <div class="page-controls">
+          <button class="ghost-button prev-page" type="button">← Back</button>
+          <button class="primary-button next-page" type="button">kholo ji  →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 4: PHOTO MEMORIES -->
+    <section class="story-page" data-page="3">
+      <div class="glass-card memories-page">
+        <p class="eyebrow">Hamara saaath bitaya samay</p>
+        <h2>khoobsurat yaaden!</h2>
+        <p class="section-copy">Meri duniya 😭🥺</p>
+
+        <div class="memory-carousel">
+          <button class="carousel-arrow" id="photoPrev" type="button" aria-label="Previous photo">‹</button>
+
+          <div class="photo-stage" id="photoStage">
+            <article class="photo-slide active">
+              <div class="photo-frame">
+                <img src="assets/1.jpeg" alt="Our first beautiful memory" />
+                <span class="photo-tape"></span>
+              </div>
+              <div class="photo-caption">
+                <small>Mera baccha 🥺</small>
+                <h3>Khoob surat suruaat</h3>
+                <p>Khusi ke pal</p>
+              </div>
+            </article>
+
+            <article class="photo-slide">
+              <div class="photo-frame rotate-left">
+                <img src="assets/2.jpeg" alt="A happy shared memory" />
+                <span class="photo-tape"></span>
+              </div>
+              <div class="photo-caption">
+                <small>Phir mulakat </small>
+                <h3>Kitna haseen nazara </h3>
+                <p>Kyuki pehli baar tumne mujhe mere naam se pukara </p>
+              </div>
+            </article>
+
+            <article class="photo-slide">
+              <div class="photo-frame rotate-right">
+                <img src="assets/3.jpeg" alt="A peaceful shared moment" />
+                <span class="photo-tape"></span>
+              </div>
+              <div class="photo-caption">
+                <small>Mera baccha</small>
+                <h3>Mera betu 😭</h3>
+                <p>Sorry betu 🥹</p>
+              </div>
+            </article>
+
+            <article class="photo-slide">
+              <div class="photo-frame">
+                <img src="assets/4.jpeg" alt="Our future memory placeholder" />
+                <span class="photo-tape"></span>
+              </div>
+              <div class="photo-caption">
+                <small>Hmarai yaaden</small>
+                <h3>Mera khoobsurat pal</h3>
+                <p>Ek dooje ke liye bane hai .</p>
+              </div>
+            </article>
+          </div>
+
+          <button class="carousel-arrow" id="photoNext" type="button" aria-label="Next photo">›</button>
+        </div>
+
+        <div class="photo-dots" id="photoDots"></div>
+
+        <div class="page-controls">
+          <button class="ghost-button prev-page" type="button">← Back</button>
+          <button class="primary-button next-page" type="button">bas ye bata do aap hame ki 😭 →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 5: FINAL PROPOSAL -->
+    <section class="story-page" data-page="4">
+      <div class="glass-card proposal-page">
+        <div id="proposalContent">
+          <p class="eyebrow">Bas ye bata do aap hame 😭</p>
+          <div class="proposal-icon">♥</div>
+          <h2>Kya aapne hame maaf kar diya ki nahi 😭</h2>
+          <p class="proposal-copy" id="proposalMessage">
+            please 😭🥹.
+          </p>
+
+          <div class="proposal-button-area" id="proposalButtonArea">
+            <button class="no-button" id="noButton" type="button">Nahi 😤</button>
+            <button class="yes-button" id="yesButton" type="button">Haaa ♥</button>
+          </div>
+
+          <button class="ghost-button prev-page final-back" type="button">← Back</button>
+        </div>
+
+        <div class="success-view hidden" id="successView" aria-live="polite">
+          <div class="success-heart">♥</div>
+          <p class="eyebrow">Mujhe pata tha ki mujhe maaf kar doge </p>
+          <h2>tumne haa kah diya 🥹</h2>
+          <p>
+          Hamari jindgi me hamesa esi hi khusiya bani rahe 🥺<span data-recipient>My Love</span>.
+          </p>
+
+          <div class="promise-box">
+            <small>ek bada raha</small>
+            <strong>
+             Hmaesa mujhe pyaar karna musibat me hamesa tumhare saath hu me
+            </strong>
+          </div>
+
+          <p class="final-signature">
+           Aapka Baccha <br />
+            <b data-sender>shivu😚</b> ♡
+          </p>
+
+          <button class="primary-button" id="restartButton" type="button">Read again ↻</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="celebration-layer" id="celebrationLayer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
